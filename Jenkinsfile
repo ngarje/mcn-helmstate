@@ -24,8 +24,8 @@ spec:
 
     environment {
         KUBECONFIG = 'kubeconfig'
-        HELM_CHARTS_GIT_REPO = 'github.com/infracloudio/app-mono-helmcharts.git'
-        HELM_CHARTS_REPO = 'app-mono-helmcharts'
+        HELM_CHARTS_GIT_REPO = 'https://github.com/ngarje/mcn-helmcharts.git'
+        HELM_CHARTS_REPO = 'mcn-helmcharts'
         HELM_CHARTS_BRANCH = 'master'
         GITHUB_HOOK_SECRET = "github-webhook-token-app-mono-helmstate"
         //K8S_SERVER = credentials('k8s-server')
